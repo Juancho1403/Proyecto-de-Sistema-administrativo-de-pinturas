@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Create_Buttom">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>200</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+   </property>
+   <property name="text">
+    <string>Crear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Edit_Buttom">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>260</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+   </property>
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Eliminate_Buttom">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>320</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_ID">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>610</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_Nombres">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>610</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_Apellidos">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>610</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_email">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>610</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_Telefono">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>610</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textEdit_Buscar">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>430</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>631</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>580</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>580</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>580</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Contraseña</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>580</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>e-mail</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>580</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>400</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buscar Usuario</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

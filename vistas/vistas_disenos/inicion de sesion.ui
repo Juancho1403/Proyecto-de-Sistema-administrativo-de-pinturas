@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>761</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagenes/img-6.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Compras</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ventas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Inventario</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Clientes </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Usuarios</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>340</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    border-radius: 15px; /* Ajusta el radio según tu preferencia */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: gray;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QPushButton {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>Monto de Compras</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>90</y>
+      <width>501</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>dia</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>mes</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>año</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>semana</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>totales de ventas</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>totales de clientes</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

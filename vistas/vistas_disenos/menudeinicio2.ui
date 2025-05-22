@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_superior">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="btn_Cerrar">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>10</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+border:5px solid #aa00ff;
+background-color:#00ff00;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/cerrar.png</normaloff>../../Downloads/cerrar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>34</width>
+         <height>34</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_restaurar_2">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>10</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+border:5px solid #aa00ff;
+background-color:#0000ff;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/maximizar.png</normaloff>../../Downloads/maximizar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>34</width>
+         <height>34</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_restaurar">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+border:5px solid #aa00ff;
+background-color:#ff0000;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/restaurar.png</normaloff>../../Downloads/restaurar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>34</width>
+         <height>34</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_minimizar">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>10</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+border:5px solid #aa00ff;
+background-color:#ffff00;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/minimizar.png</normaloff>../../Downloads/minimizar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>34</width>
+         <height>34</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_menu">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>200</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #aa00f;
+    font: 600 12pt &quot;Arial Black&quot;;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+QPushButton:hover {
+    background-color: white;
+    cursor: pointer;
+}</string>
+       </property>
+       <property name="text">
+        <string>    MENU</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/barra-de-menus.png</normaloff>../../Downloads/barra-de-menus.png</iconset>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_inferior">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame {
+    background-color: rgb(0, 255, 255);
+}
+
+QPushButton {
+    background-color: rgb(0, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    font: 75 12pt &quot;Arial Narrow&quot;;
+}
+
+QPushButton:hover {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="geometry">
+           <rect>
+            <x>14</x>
+            <y>20</y>
+            <width>121</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>COMPRAS</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../Downloads/comprar.png</normaloff>../../Downloads/comprar.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>190</y>
+            <width>141</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 16pt &quot;Arial Narrow&quot;;</string>
+          </property>
+          <property name="text">
+           <string>PINTA CONTROL</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="geometry">
+           <rect>
+            <x>14</x>
+            <y>60</y>
+            <width>121</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>VENTAS</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../Downloads/ventasicono.png</normaloff>../../Downloads/ventasicono.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>24</x>
+            <y>100</y>
+            <width>111</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>INVENTARIO</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../Downloads/inventario-green.png</normaloff>../../Downloads/inventario-green.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="geometry">
+           <rect>
+            <x>24</x>
+            <y>140</y>
+            <width>111</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>USUARIOS</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../Downloads/6522581.png</normaloff>../../Downloads/6522581.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>220</y>
+            <width>101</width>
+            <height>81</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../../Downloads/inteligencia-artificial.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_contenedor">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <widget class="QStackedWidget" name="stackedWidget">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>371</width>
+               <height>311</height>
+              </rect>
+             </property>
+             <widget class="QWidget" name="page_principal">
+              <widget class="QPushButton" name="pushButton">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>100</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(170, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_2">
+               <property name="geometry">
+                <rect>
+                 <x>-24</x>
+                 <y>-8</y>
+                 <width>401</width>
+                 <height>331</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>../../Pictures/img-6.jpg</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_uno">
+              <widget class="QPushButton" name="pushButton_2">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>110</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(170, 170, 255);</string>
+               </property>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_dos">
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>130</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(0, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_tres">
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>120</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(170, 0, 255);</string>
+               </property>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_cuatro">
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>120</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
